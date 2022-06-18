@@ -7,6 +7,7 @@ int main()
   c=a;
   a=b;
   b=c;
-  cout<<a<<endl<<b;
+  cout<<a<<endl<<b<<endl;
+  cout<<HIMANSHU;
 
 }
