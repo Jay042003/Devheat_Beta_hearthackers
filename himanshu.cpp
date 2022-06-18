@@ -8,6 +8,6 @@ int main()
   a=b;
   b=c;
   cout<<a<<endl<<b<<endl;
-  cout<<HIMANSHU;
+  cout<<HIMANSHU RANJAN;
 
 }
