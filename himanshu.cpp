@@ -7,7 +7,6 @@ int main()
   c=a;
   a=b;
   b=c;
-  cout<<a<<endl<<b<<endl;
-  cout<<HIMANSHU RANJAN;
+  cout<<a<<endl<<b<<endl<<"Himanshu"<<endl;
 
 }
