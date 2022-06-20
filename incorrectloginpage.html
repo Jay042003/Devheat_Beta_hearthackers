@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login Page</title>
+    <style>
+        .logo{
+            text-align: center;
+            margin-bottom: 0%;
+            margin : 0; 
+            padding-top:0;
+        }
+        #fist{
+            background-color: aqua;
+            margin: 0px;
+        }
+
+
+        /* Full-width inputs */
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        /* Set a style for all buttons */
+        button {
+            background-color: #04AA6D;
+            color: white;
+            padding: 14px 20px;
+            margin-left: 635px;
+            border: none;
+            cursor: pointer;
+            width: 200px;
+        }
+
+        /* Add a hover effect for buttons */
+        #button:hover {
+            transform: scale(0.9); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        #button {
+            transition: transform .2s; /* Animation */
+        }
+
+        /* Center the avatar image inside this container */
+        #me {
+            text-align: center;
+            margin-left: 600px;
+        }
+        #slogin {
+            margin-left: 615px;
+        }
+        #ip {
+            color: red;
+            font-size:13px;
+        }
+
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+
+            .cancelbtn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fist">
+        <img src="NIT_Surat_Logo.svg.png" alt="Logo" width="150 px" align="left">
+        <img src="download-removebg-preview.png" alt="Logo" width="150 px" align="right">
+        <br>
+        <br>
+        <h1 class="logo">Sardar  Vallabhbhai  National  Institude  of  Technology</h1>
+        <h2 class="logo">Surat</h2>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br>
+    <h1 id="slogin"><b>Student login Page</b></h1>
+    <br>
+    <form action="action_page.php" method="post">
+            <img src="NIT_Surat_Logo.svg.png" alt="logo" width="300px" id="me" >
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <br/>
+            <pa id="ip">Incorrect password</pa>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            
+
+            <button type="submit" id="button">Login</button>
+        </div>
+    </form>
+</body>
+
+</html>
